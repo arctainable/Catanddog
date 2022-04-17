@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&display=swap');
+
+.App {
+  width: 100vw;
+  height: 100vh;
+  padding: 70px;
+  background-color: #ffe0d7;
+  font-family: 'Jua', sans-serif;
+}
+
+.App-container {
+  display: grid;
+  background-color: white;
+  border-radius: 2rem;
+  grid-template-columns: repeat(12, 1fr);
+  height: 100%;
+}
+
+.App-nav {
+  grid-column-start: 1;
+  grid-column-end: 3;
+}
+
+.App-page {
+  padding: 2rem;
+  background-color: #f9f9f9;
+  border-radius: 2rem;
+  grid-column-start: 3;
+  grid-column-end: 13;
+}
